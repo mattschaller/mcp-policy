@@ -1,0 +1,21 @@
+name: 'mcp-policy'
+description: 'Enforce MCP server allowlists and blocklists against developer configs'
+inputs:
+  policy-path:
+    description: 'Path to policy.yml file'
+    required: false
+    default: 'policy.yml'
+  policy-url:
+    description: 'URL to fetch policy from (overrides policy-path)'
+    required: false
+    default: ''
+  config-paths:
+    description: 'Space-separated paths to MCP config files'
+    required: false
+    default: '.mcp.json'
+branding:
+  icon: 'shield'
+  color: 'blue'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
