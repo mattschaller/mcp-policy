@@ -108,6 +108,10 @@ Both `allowed[].name` and `blocked[].pattern` support `*` wildcards:
 | 1 | One or more violations |
 | 2 | Runtime error (bad config, missing policy) |
 
+## See also
+
+Pair with [eslint-plugin-mcp-security](https://github.com/mattschaller/eslint-plugin-mcp-security) to catch vulnerabilities *inside* MCP server code — 13 ESLint rules mapped to the OWASP MCP Top 10 and real CVEs.
+
 ## License
 
 MIT
