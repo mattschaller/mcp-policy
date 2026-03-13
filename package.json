@@ -1,6 +1,6 @@
 {
   "name": "mcp-policy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enforce MCP server allowlists and blocklists against developer configs. CLI + GitHub Action.",
   "keywords": [
     "mcp",
