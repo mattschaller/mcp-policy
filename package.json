@@ -41,7 +41,7 @@
     "prepublishOnly": "npm run build && npm run test"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^5.1.0",
     "semver": "^7.6.0"
   },
   "devDependencies": {
